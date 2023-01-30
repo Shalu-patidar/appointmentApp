@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.appointment-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.title-and-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #171f46;
+}
+.star-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.appointment-date {
+  font-size: 1.2rem;
+  color: #b5b7c4;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .appointment-item {
+    min-width: calc(33% - 1rem);
+  }
+}

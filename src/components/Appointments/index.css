@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+  padding: 1rem;
+}
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+.main-heading {
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #171f46;
+}
+.form-image-container {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.title-label,
+.date-label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #b5b7c4;
+  margin-bottom: 0.5rem;
+}
+.date-label {
+  font-weight: 500;
+}
+input {
+  padding: 0.6rem 1.4rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #171f46;
+  border-radius: 5px;
+}
+.title-input {
+  color: #b5b7c4;
+}
+.date-input {
+  color: #171f46;
+}
+.add-btn {
+  font-size: 1rem;
+  background-color: #8b5cf6;
+  padding: 0.8rem 1.7rem;
+  align-self: flex-start;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.illustration {
+  display: none;
+}
+hr {
+  margin-bottom: 2rem;
+}
+.para-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.main-heading2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.starred-btn {
+  background-color: transparent;
+  color: #9897f0;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: 2px solid #9897f0;
+  padding: 0.4rem 1.5rem;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    min-height: unset;
+    padding: 3rem;
+  }
+  .main-heading {
+    margin-top: unset;
+  }
+  .form-and-image {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  form {
+    width: 300px;
+  }
+  .illustration {
+    display: inline-block;
+    width: 50%;
+  }
+  .appointment-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.active-fav {
+  background-color: #9897f0;
+  color: white;
+}
+
+.appointment-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
